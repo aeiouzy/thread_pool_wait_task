@@ -146,9 +146,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="使用任务窃取的线程池.cpp" />
     <ClCompile Include="可等待任务的线程池.cpp" />
+    <ClCompile Include="基于锁的任务窃取队列.h" />
+    <ClCompile Include="线程池—线程具有本地任务队列.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="function_wrapper.h" />
+    <ClInclude Include="join_threads.h" />
     <ClInclude Include="thread_safe_queue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

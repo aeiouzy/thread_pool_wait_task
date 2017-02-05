@@ -18,9 +18,24 @@
     <ClCompile Include="可等待任务的线程池.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="线程池—线程具有本地任务队列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="基于锁的任务窃取队列.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="使用任务窃取的线程池.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="thread_safe_queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="function_wrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="join_threads.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
